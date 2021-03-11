@@ -1,0 +1,2 @@
+# AWS---EC2-S3-SQS
+The application is composed of a local application and instances running on the Amazon cloud. The application will get as an input a text file containing a list of URLs of images. Then, instances will be launched in AWS (workers). Each worker will download image files, use some OCR library to identify text in those images (if any) and display the image with the text in a webpage. 
